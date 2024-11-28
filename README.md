@@ -23,8 +23,8 @@ To run the sorting algorithms, use the `sort.js` file:
 ```
 sorting algorithms
 ├─ algorithms
-│  ├─ bubleSort
-│  │  ├─ bubleSort.js
+│  ├─ bubbleSort
+│  │  ├─ bubbleSort.js
 │  │  └─ výstup.md
 │  ├─ selectionSort
 │  │  ├─ selectionSort.js

@@ -2,7 +2,7 @@
 
 ## 1. Test na všech datových sadách
 
-Provedli jsme testy na všech datových sadách a měřili čas potřebný k jejich setřídění pomocí algoritmu buble sort. Poté jsme znovu spustili třídění na již setříděných datech a porovnali rychlosti.
+Provedli jsme testy na všech datových sadách a měřili čas potřebný k jejich setřídění pomocí algoritmu bubble sort. Poté jsme znovu spustili třídění na již setříděných datech a porovnali rychlosti.
 
 | Datová sada                  | Čas třídění (nesetříděná) | Čas třídění (setříděná) |
 |------------------------------|---------------------------|-------------------------|
@@ -19,17 +19,17 @@ Setřízení dat nemá žádný významný vliv na rychlost třízení dat.
 
 ## 2. Efektivita na slovech
 
-Algoritmus buble sort byl testován na datových sadách obsahujících slova. Výsledky ukazují, že algoritmus je méně efektivní na velkých datových sadách, ale stále poskytuje konzistentní výsledky.
+Algoritmus bubble sort byl testován na datových sadách obsahujících slova. Výsledky ukazují, že algoritmus je méně efektivní na velkých datových sadách, ale stále poskytuje konzistentní výsledky.
 
 ## 3. Výpočet/vysvětlení složitosti algoritmu
 
-Algoritmus buble sort má časovou složitost O(n^2), kde n je počet prvků v poli. To je způsobeno dvěma vnořenými smyčkami, kde každá iterace vnější smyčky provádí n iterací vnitřní smyčky.
+Algoritmus bubble sort má časovou složitost O(n^2), kde n je počet prvků v poli. To je způsobeno dvěma vnořenými smyčkami, kde každá iterace vnější smyčky provádí n iterací vnitřní smyčky.
 
 ## 4. Kód
 
 Kód algoritmu selection sort je následující:
 ```javascript
-export function BubleSort(arr) {
+export function BubbleSort(arr) {
     if (!arr)
         return null;
 

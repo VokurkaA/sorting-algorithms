@@ -1,6 +1,6 @@
 const fs = require('fs');
 const { selectionSort } = require('./algorithms/selectionSort/selectionSort');
-const { BubleSort } = require('./algorithms/bubleSort/bubleSort');
+const { BubbleSort } = require('./algorithms/bubbleSort/bubbleSort');
 
 const fileNames = [
     'integers_0_to_4294967295.txt',     //0

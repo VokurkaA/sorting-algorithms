@@ -1,4 +1,4 @@
-export function BubleSort(arr) {
+export function BubbleSort(arr) {
     if (!arr)
         return null;
 
